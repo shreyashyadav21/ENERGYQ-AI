@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="800" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f0c98e"/>
+      <stop offset=".48" stop-color="#b6d2c3"/>
+      <stop offset="1" stop-color="#456f67"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#427b72"/>
+      <stop offset="1" stop-color="#1b3d3a"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#c88a5a"/>
+      <stop offset="1" stop-color="#875b49"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="55"/></filter>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v1000H0z"/>
+  <circle cx="1240" cy="215" r="115" fill="#f3d09b" opacity=".8"/>
+  <ellipse cx="450" cy="460" rx="480" ry="175" fill="#f6dfbd" opacity=".35" filter="url(#soft)"/>
+  <path d="M0 610c180-65 325-70 505-22 165 44 322 28 458-27 189-77 417-84 637-12v451H0V610Z" fill="#739483"/>
+  <path d="M0 720c188-72 346-43 532-12 194 32 358-6 515-65 179-67 365-43 553 17v340H0V720Z" fill="#476e63"/>
+  <g fill="#344f4c" opacity=".9">
+    <path d="M92 532h88v185H92zM186 577h120v140H186zM337 511h74v206h-74zM422 557h132v160H422zM1150 538h101v179h-101zM1260 490h74v227h-74zM1348 565h145v152h-145z"/>
+    <path d="M128 489h17v24h-17zM222 534h20v27h-20zM365 470h17v28h-17zM460 518h20v27h-20zM1188 500h17v28h-17zM1285 452h17v26h-17zM1394 526h20v27h-20z" fill="#e9c895"/>
+  </g>
+  <g transform="translate(145 473)">
+    <path d="M0 210 235 58l241 152v283H0V210Z" fill="#e6d5bd"/>
+    <path d="M-22 220 234 43l267 177-20 27L235 83 0 245l-22-25Z" fill="url(#roof)"/>
+    <path d="M50 271h131v222H50zM247 260h137v112H247zM247 403h137v90H247z" fill="#376a62"/>
+    <path d="M65 287h101v191H65zM262 274h107v84H262zM262 418h107v60H262z" fill="url(#glass)" opacity=".8"/>
+    <path d="M0 493h476v24H0z" fill="#a96f4e"/>
+    <path d="M191 199h92v12h-92zM190 219h93v10h-93zM201 238h72v9h-72z" fill="#376a62"/>
+    <path d="M36 164 233 31l198 133" stroke="#f1dfbf" stroke-width="8" stroke-linecap="round"/>
+    <path d="M213 517v-90a23 23 0 0 1 46 0v90" fill="#b87953"/>
+  </g>
+  <g transform="translate(1040 535)" stroke="#d7e3cf" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M110 252V20M35 88l75 164 76-164M44 145h132M63 187h94"/>
+    <path d="M26 252h168M85 20h50M51 88h119"/>
+  </g>
+  <g stroke="#f2d89e" stroke-width="3" opacity=".65">
+    <path d="M0 875c212-46 343-51 518 0s312 44 488-6 360-53 594 8"/>
+    <path d="M0 909c212-46 343-51 518 0s312 44 488-6 360-53 594 8"/>
+  </g>
+  <g fill="#e7c68e" opacity=".85">
+    <circle cx="370" cy="771" r="7"/><circle cx="472" cy="777" r="6"/><circle cx="573" cy="778" r="7"/>
+    <circle cx="1132" cy="790" r="6"/><circle cx="1234" cy="784" r="7"/><circle cx="1346" cy="791" r="6"/>
+  </g>
+</svg>

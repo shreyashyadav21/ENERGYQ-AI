@@ -1,0 +1,22 @@
+{
+  "name": "energyq-ai",
+  "version": "1.0.0",
+  "description": "ENERGYQ AI — Powering Smarter Living, Managing Smarter Grids",
+  "scripts": {
+    "start": "node run_all.js",
+    "dev": "node run_all.js",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": ".\\backend\\venv\\Scripts\\python.exe backend\\main.py",
+    "build": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "energy",
+    "smart-grid",
+    "digital-twin",
+    "threejs",
+    "fastapi",
+    "bescom"
+  ],
+  "author": "ENERGYQ AI",
+  "license": "MIT"
+}
